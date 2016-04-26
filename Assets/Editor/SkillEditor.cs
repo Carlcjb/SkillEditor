@@ -379,6 +379,7 @@ public class SkillEditor : EditorWindow
     {
         try
         {
+            //static string FixPath = "Assets/Resources/FightData/Skill/"; //技能数据的位置
             DirectoryInfo parentFolder = new DirectoryInfo(FixPath);
             //遍历文件夹
             foreach (DirectoryInfo folder in parentFolder.GetDirectories())
